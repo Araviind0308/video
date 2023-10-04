@@ -1,0 +1,74 @@
+ /* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}  */
+
+/* CSS for Video Card */
+.video-card {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.video-card img {
+  width: 300px;
+  height: 204px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.video-info {
+  flex: 1;
+  padding: 10px;
+  margin: 0px 10%;
+}
+.channel-info{
+  margin: 0px 40%;
+}
+/* CSS for Channel Logo */
+.channel-info img {
+  margin-top: 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* CSS for Video Title */
+.video-info h3 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* CSS for Stats (Likes and Views) */
+.stats p {
+  margin: 10px 40%;
+  font-size: 15px;
+  color: #e88700cf;
+}
+
+/* CSS for Hover Effect (Optional) */
+.video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  background-color: aqua;
+  color: rgb(130, 170, 238);
+
+  
+}
