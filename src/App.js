@@ -136,7 +136,6 @@ function App() {
           </div>
         </div>
       ))}
-      <div>new name</div>
     </div>
     
   );
