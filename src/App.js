@@ -119,6 +119,7 @@ const videos = [
 ]; 
 
   return (
+    <>
    <div>
       {videos.map((video) => (
         <div key={video.id} className="video-card">
@@ -137,7 +138,7 @@ const videos = [
         </div>
       ))}
     </div>
-    
+    </>
   );
 }
 
